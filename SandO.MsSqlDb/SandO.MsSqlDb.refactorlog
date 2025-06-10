@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="577c7971-a1eb-4049-a4cb-145aa7e8ba58" ChangeDateTime="11/25/2024 08:49:35">
+    <Property Name="ElementName" Value="[dbo].[Materials].[GroupCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Materials]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GroupId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c84f03c7-c083-4668-9348-a71837f3f7fc" ChangeDateTime="11/25/2024 08:50:57">
+    <Property Name="ElementName" Value="[dbo].[MaterialStocks].[MaterialCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaterialStocks]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaterialId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d1ca6b18-d337-4d32-a8c0-928f989645d6" ChangeDateTime="11/25/2024 08:51:41">
+    <Property Name="ElementName" Value="[dbo].[MaterialTransactions].[MaterialCode]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MaterialTransactions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MaterialId" />
+  </Operation>
+</Operations>
